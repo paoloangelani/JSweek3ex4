@@ -12,7 +12,7 @@ const book = async function () {
                         <img src="${book.img}" class="card-img-top" alt="${book.title} pic" >
                             <div class="card-body d-flex flex-column justify-content-between">
                                 <h5 class="card-title">${book.title}</h5>
-                                <p class="card-text">${book.price}$</p>
+                                <p class="card-text">${book.price}</p>
                                 <a href="#" class="btn btn-primary">Skip</a>
                             </div>
                         </div>
